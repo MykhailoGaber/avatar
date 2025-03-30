@@ -1,0 +1,290 @@
+:root {
+    --font-family: "Inter", sans-serif;
+    --second-family: "HeadlandOne", sans-serif;
+    --third-family: "Hammersmith One", sans-serif;
+    --main-title-color: #141414;
+    --main-text-color: #fff;
+    --avatar-language-color: #000;
+  }
+  h1, h2, h3, h4, h5, h6, p {
+      margin: 0;
+  }
+  ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+  }
+  a {
+      text-decoration: none;
+  }
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  .container {
+    width: 1062px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  body {
+    font-family: var(--font-family);
+  }
+  .logo {
+    margin-right: 184px;
+  }
+  .header-position {
+    display: flex;
+    align-items: center;
+  }
+  .header {
+    background-color: brown;
+    background-image: linear-gradient(rgba(43, 74, 97, 0.87),rgba(43, 74, 97, 0.87)), url(../images/avatarheader-min.png);
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1440px;
+    height: 150px;
+  }
+  .nav-list {
+    display: flex;
+    justify-content: center;
+    column-gap: 38px;
+  }
+  .header-button {
+    margin-left: 228px;
+  }
+  .nav-link {
+    font-family: var(--font-family);
+    color: var(--main-text-color);
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+  }
+  /* main */
+  .first-article-container,
+.second-article-container {
+    text-align: center;
+}
+
+.first-article-title,
+.second-article-title {
+    margin-top: 75px;
+    padding-left: 170px;
+    padding-right: 170px;
+    padding-bottom: 4px;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.first-article-text,
+.second-article-text {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;  
+}
+
+.first-article-image,
+.second-article-image {
+    display: block;
+    margin: 0 auto;
+    width: 400px; 
+    height: 120px; 
+    
+}
+
+.third-article-container {
+    text-align: center;
+}
+
+.third-article-title {
+    margin-top: 75px;
+    padding-left: 170px;
+    padding-right: 170px;
+    padding-bottom: 4px;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.third-article-text {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.third-article-image {
+    display: block;
+    margin: 0 auto;
+    width: 400px;
+    height: 120px;
+}
+
+  .avatar {
+    background-image: url(../images/avatar1-min.jpg);
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 740px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .avatar-title {
+    display: none;
+  }
+  .avatar-text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+  }
+  .avatar-text1::after {
+    content: "";
+    display: block;
+    background-image: url(../images/avatar2-min.jpg);
+  }
+  .avatar-info-list {
+    display: flex;
+    column-gap: 36px;
+    row-gap: 24px;
+    flex-wrap: wrap;
+    flex-basis: calc((100% - 2 * 36px) / 3);
+  }
+  .avatar-info-phrase {
+    display: flex;
+    justify-content: center;
+  }
+  .avatar-info-translation {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+  }
+  .third-quote {
+    width: 1438px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .first-quote-title {
+    display: none;
+  }
+  .second-quote-title {
+    display: none;
+  }
+  .avatar-info-title {
+    display: none;
+  }
+  .third-quote-title {
+    display: none;
+  }
+  .footer-title {
+    display: none;
+  }
+  .instagram {
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .twitter {
+    display: inline;
+  }
+  .youtube {
+    display: inline;
+  }
+  .video-title {
+    display: none;
+  }
+  .avatar-info {
+    background-image: url("../images/avatarislands-min.png");
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 704px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .avatar-info-second-title {
+    font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 32px;
+  text-align: justify;
+  color: var(--main-title-color);
+  padding-top: 58px;
+  padding-left: 471px;
+  padding-right: 470px;
+  padding-bottom: 45px;
+  }
+  .avatar-info-list {
+    display: flex;
+  }
+  .avatar-list {
+    padding-top: 180px;
+  }
+  .avatar-button {
+    border: 3px solid #26c7ea;
+  border-radius: 45px 0;
+  width: 260px;
+  height: 80px;
+  background-color: #0b0e66;
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+  color: #26c7ea;
+  }
+  .avatar-info-item {
+    width: 320px;
+    height: 240px;
+    background: rgba(255, 255, 255, 0.7);
+  }
+  .video {
+    background-image: url(../images/avatar2-min.jpg);
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 741px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /*Footer */
+  .footer {
+    background-image: linear-gradient(rgba(43, 74, 97, 0.87), rgba(43, 74, 97, 0.87)), url(../images/avatarfooter-min.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .footer-position {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-text {
+    font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  text-align: justify;
+  color: var(--main-text-color);
+  }
+  .footer-text::after {
+    content: "";
+    border-bottom: 1px solid white;
+    stroke-width: 2px;
+    stroke: #fff;
+  }
+  .footer-rights {
+    font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  text-align: justify;
+  color: var(--main-text-color);
+  }
+  .footer-logo {
+    padding-left: 204px;
+    padding-top: 77px;
+  }
+  .footer-item {
+    display: flex;
+    justify-content: center;
+  }
+  .footer-rights {
+    padding-left: 678px;
+  }

@@ -1,97 +1,171 @@
 <!DOCTYPE html>
-<html lang="uk">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Аватар - Figma</title>
+    <title>Avatar</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Headland+One&family=Inter:opsz,wght@14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <header>
-        <div>
-            <img src="images/avatarlogo-min.png" alt="Avatar Logo">
+    <header class="header">
+        <div class="container header-position">
+            <a class="link" href="/">
+                <img class="logo" src="./images/avatarlogo-min.png" alt="logo">
+            </a>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Main</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacts</a>
+                    </li>
+                </ul>
+            </nav>
+            <button class="header-button" type="button">Log In</button>
+            <img class="switcher" src="images/switcher-min.png" alt="ukr eng">
         </div>
-        <nav>
-            <ul>
-                <li><a href="#home">Головна</a></li>
-                <li><a href="#about">Про нас</a></li>
-                <li><a href="#contact">Контакти</a></li>
-            </ul>
-        </nav>
-        <a href="#">Увійти</a>
     </header>
-    
-    <main>
-        <section>
-            <div>
-                <p>Oe periltxe hu tsamsiyu! Ngari hu Eywa salew tirea, tokx 'awn slu Na'viyä hapxi. Säwem nìayoeng!</p>
-                <p>Хоробрий воїне, звертаюся до тебе! Твій дух іде з Ейвою, твоє тіло залишається, щоб стати частиною Народу. Борись разом з нами!</p>
-                <a href="#button">Приєднатися до клану</a>
-                <img src="images/avatar1-min.jpg" alt="avatar1">
+    <main class="main">
+            <section class="avatar">
+                <h2 class="avatar-title">About Avatar</h2>
+                <div class="container avatar-position">
+                <ul class="avatar-list">
+                    <li>
+                <pre class="avatar-text avtar-text1">Oe perlltxe hu tsamsiyu!
+Ngari hu Eywa salew tirea, 
+tokx 'ì'awn slu Na'viyä hapxì.
+Säwem nìayoeng!</pre>
+</li>
+<li>
+               <pre class="avatar-text avatar-text2">I'm speaking with the warrior!
+Your spirit goes with Eywa, 
+your body stays behind to 
+become part of the People.
+Fight with us!</pre>
+</li>
+                 </ul>
+            <button class="avatar-button" type="button">Join clan</button>
+            <ul>
+                <li>
+                    <a href="#" class="instagram">
+                        <img src="images/instagram-min.png" alt="Instagram">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="twitter">
+                        <img src="images/twitter-min.png" alt="Twitter">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="youtube">
+                        <img src="images/youtube-min.png" alt="Youtube">
+                    </a>
+                </li>
+            </ul>
+                </div>
+            </section>
+            <section class="first-quote">
+        <div class="container first-quote-position">
+                <h1 class="first-quote-title" >Quote</h1>
+                <article class="first-article">
+    <div class="first-article-container">
+        <blockquote class="first-article-title">“A LOT OF PEOPLE FROM THE SKY ARE GONNA COME. THEY’RE GONNA COME LIKE A RAIN THAT NEVER ENDS.”</blockquote>
+        <p class="first-article-text">JAKE SULLY</p>
+        <img class="first-article-image" src="images/birdavatar-min.png" alt="Bird Avatar">
+    </div>
+</article>
+                </div>
+            </section>
+            <section class="video">
+            <div class="container trailer-position">
+                <h1 class="video-title">Video</h1>
+                <button class="video-button" type="button">
+                    <img src="images/trailer.png" alt="Video button">
+                </button>
+                </div>
+            </section>
+            <section class="second-quote">
+    <div class="container second-quote-position">
+        <h1 class="second-quote-title">Quote</h1>
+        <article class="second-article">
+            <div class="second-article-container">
+                <blockquote class="second-article-title">“ALL ENERGY IS ONLY BORROWED, AND ONE DAY YOU HAVE TO GIVE IT BACK.”</blockquote>
+                <p class="second-article-text">JAKE SULLY</p>
+                <img class="second-article-image" src="images/birdavatar-min.png" alt="Bird Avatar">
             </div>
-            <ul>
-                <li><a href="#"><img src="images/instagram-min.jpg" alt="instagram"></a></li>
-                <li><a href="#"><img src="images/twitter-min.jpg" alt="twitter"></a></li>
-                <li><a href="#"><img src="images/youtube-min.jpg" alt="youtube"></a></li>
-            </ul>
-        </section>
-
-        <section>
-            <article>
-                <blockquote>БАГАТО ЛЮДЕЙ З НЕБА ПРИЙДЕ, ВОНИ ПРИЙДУТЬ, ЯК ГРОЗА, ЯКА НІКОЛИ НЕ ЗАКІНЧУЄТЬСЯ.</blockquote>
-                <p>— Джейк Саллі</p>
-            </article>
-            <img src="images/birdavatar-min.png" alt="avatarbird">
-        </section>
-        
-        <section>
-            <img src="images/avatar2-min.jpg" alt="avatar2">
-            <figcaption><a href="https://youtu.be/d9MyW72ELq0">Дивитись трейлер</a></figcaption>
-        </section>
-        
-        <section>
-            <article>
-                <blockquote>ВСЯ ЕНЕРГІЯ ЛИШЕ ЗАПОЗИЧЕНА, ОДНОГО ДНЯ ЇЇ ДОВЕДЕТЬСЯ ПОВЕРНУТИ.</blockquote>
-                <p>— Джейк Саллі</p>
-            </article>
-            <img src="images/birdavatar-min.png" alt="avatarbird">
-        </section>
-
-        <section>
-            <h2>Вивчи мову На’ві</h2>
-            <ul>
-                <li>Привіт → Kaltxì</li>
-                <li>Як справи? → Ngaru lu fpom srak?</li>
-                <li>Все добре → Lu fpom</li>
-                <li>Люблю тебе → Oel ngati kameie</li>
-            </ul>
-        </section>
-
-        <section>
-            <article>
-                <blockquote>НАША ВЕЛИКА МАТИ НЕ СТАЄ НА ЯКУСЬ СТОРОНУ, ВОНА ЗАХИЩАЄ ЛИШЕ ЖИТТЄВИЙ БАЛАНС.</blockquote>
-                <p>— Нейтірі</p>
-            </article>
-            <img src="images/birdavatar-min.png" alt="avatarbird">
-        </section>
+        </article>
+    </div>
+</section>
+            <section class="avatar-info">
+            <div class="container avatar-info-positon"></div>
+                <h1 class="avatar-info-title">Information about Avatar</h1>
+                    <h2 class="avatar-info-second-title">Let's learn the Na'vi language</h2>
+                    <ul class="avatar-info-list">
+                        <li class="avatar-info-item">
+                            <p class="avatar-info-phrase">Hello</p>
+                            <p class="avatar-info-translation">Kaltxì</p>
+                        </li>
+                        <li class="avatar-info-item">
+                            <p class="avatar-info-phrase">How Are You?</p>
+                            <p class="avatar-info-translation">Ngaru lu fpom srak?</p>
+                        </li>
+                        <li class="avatar-info-item">
+                            <p class="avatar-info-phrase">I'm Well</p>
+                            <p class="avatar-info-translation">Lu fpom</p>
+                        </li>
+                        <li class="avatar-info-item">
+                            <p class="avatar-info-phrase">Thank you</p>
+                            <p class="avatar-info-translation">Irayo si </p>
+                        </li>
+                        <li class="avatar-info-item">
+                            <p class="avatar-info-phrase">I See You</p>
+                            <p class="avatar-info-translation">Oel ngati kameie</p>
+                        </li>
+                        <li class="avatar-info-item">
+                            <p class="avatar-info-phrase">Follow me!</p>
+                            <p class="avatar-info-translation">Nong oet!</p>
+                        </li>
+                    </ul>
+            </div>
+            </section>
+            <section class="third-quote">
+    <div class="container third-quote-position">
+        <h1 class="third-quote-title">Quote</h1>
+        <article class="third-article">
+            <div class="third-article-container">
+                <blockquote class="third-article-title">“OUR GREAT MOTHER DOES NOT TAKE SIDES, SHE PROTECTS ONLY THE BALANCE OF LIFE.”</blockquote>
+                <p class="third-article-text">NEYTIRI</p>
+                <img class="third-article-image" src="images/birdavatar-min.png" alt="Bird Avatar">
+            </div>
+        </article>
+    </div>
+</section>
     </main>
-    
-    <footer>
-        <ul>
-            <li>
-                <p>Q&A E-mail: <a href="mailto:avatartwowqa@gmail.com">avatartwowqa@gmail.com</a></p>
-            </li>
-            <li>
-                <p>Cooperation E-mail: <a href="mailto:avatartwowcoop@gmail.com">avatartwowcoop@gmail.com</a></p>
-            </li>
-            <li>
-                <p>©2023 Avatar: The Way Of Water. All rights reserved</p>
-            </li>
-        </ul>
+    <footer class="footer">
+            <div class="container footer-position"></div>
+            <a class="link" href="/">
+                <img class="footer-logo" src="images/avatarlogo-min.png" alt="logo">
+            </a>
+            <ul class="footer-list">
+                <li class="footer-item">
+                    <p class="footer-text">Q&A E-mail</p>
+                    <p class="footer-text">avatartwowqa@gmail.com</p>
+                </li>
+                <li class="footer-item">
+                    <p class="footer-text">Cooperation E-mail</p>
+                    <p class="footer-text">avatartwowcoop@gmail.com</p>
+                </li>
+            </ul>
+            <small class="footer-rights">©2023 Avatar: The Way Of Water. All rights reserved</small>
+            </div>
     </footer>
 </body>
 </html>
